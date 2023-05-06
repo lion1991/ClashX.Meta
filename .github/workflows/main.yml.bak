@@ -25,8 +25,13 @@ jobs:
       uses: robinraju/release-downloader@v1.7
       with:
         repository: 'MetaCubeX/Clash.Meta'
+<<<<<<< HEAD
         tag: "Prerelease-Alpha"
         fileName: ".*darwin.*64-alpha.*.gz"
+=======
+        tag: "v1.14.4"
+        fileName: ".*darwin.*64-v.*.gz"
+>>>>>>> upstream/meta-dev
         out-file-path: "clash.meta"
         token: ${{ secrets.GITHUB_TOKEN }}
 
